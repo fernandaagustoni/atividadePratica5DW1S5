@@ -1,6 +1,6 @@
 <h1 align="center"> Atividade 4 - DW1S5 </h1>
 <p align="center">
-<img src="https://img.shields.io/static/v1?label=STATUS&message=IN PROGRESS&color=GREEN&style=for-the-badge"/>
+<img src="https://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge"/>
 </p>
 Imagine que você é um desenvolvedor do início do milênio e que lhe é incumbida a
 tarefa de desenvolver um site informativo sobre uma instituição de ensino, sabe-se que
