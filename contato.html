@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+
+<body>
+    <table width="100%" height="100%">
+        <thead>
+            <tr bgcolor="#006400">
+                <td colspan="5" align="left">
+                    <img src="logo_ifsp_arq.png" alt="logo IFSP" width="450" height="100" />
+                </td>
+            </tr>
+        </thead>
+        <tr bgcolor="#006400">
+            <td rowspan="8">
+                
+                    <ul>
+                        <li><a href="paginaPrincipal.html" target="_blank">Página Inicial</a></li>
+                        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+                        <li><a href="instalacoes.html" target="_blank">O Campus</a></li>
+                        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+                        <li><a href="contato.html" target="_blank">Contato</a></li>
+                        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+                        <li><a href="https://www.arq.ifsp.edu.br/" target="_blank">Site Oficial</a></li>
+                    </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center><strong>
+                        <h2>Envie sua dúvida por aqui...</h2>
+                    </strong></center>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <form>
+                    <fieldset>
+                        <legend>
+                            Formulário para Contato
+                        </legend>
+                        <label for="nome">
+                            Nome:
+                        </label>
+                        <input type="text" id="nome" name="Nome" required placeholder="Nome Completo" />
+                        <br /> <br /> <br />
+                        <label for="email_c">
+                            E-mail:
+                        </label>
+                        <input type="email" id="email_c" name="email_c" required placeholder="fernanda@email.com" />
+                        <br /> <br /> <br />
+                        <label for="telefone">
+                            Telefone:
+                        </label>
+                        <input type="text" name="telefone" id="telefone" required
+                            pattern="\([0-9]{2})\ [0-9]{4,5}-[0-9]{4}$" title="(00) 00000-0000"
+                            placeholder="(00) 00000-0000" />
+                        <br /> <br /> <br />
+                        <label for="assunto">
+                            Assunto:
+                        </label>
+                        <br />
+                        <textarea id="assunto" name="assunto" rows="4" cols="50"></textarea>
+                        <br /> <br /> <br />
+                        <input type="submit" value="Enviar" />
+                    </fieldset>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center>
+                    <h6>
+                        Rua Doutor Aldo Benedito Pierri, 250 - Jardim Paulo Freire, Araraquara - SP, 14804-296
+                    </h6>
+                </center>
+            </td>
+        </tr>
+</body>
+
+</html>
